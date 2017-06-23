@@ -59,6 +59,8 @@ def VGG_16(weights_path=None):
     return model
 
 from keras import backend as K
+
+# get the activations of the vgg16 model for the specified layer
 def get_activations(model, layer, X_batch):
     get_activations = K.function([model.layers[0].input, K.learning_phase()], model.layers[layer].output)
     activations = get_activations([X_batch,0])
