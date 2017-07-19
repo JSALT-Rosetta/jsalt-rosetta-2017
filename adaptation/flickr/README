@@ -1,0 +1,4 @@
+You need to set up the links which are missing.
+If that's in place then you can run the run_ctc.sh command.
+
+Make also sure you use python 3 and you are on a GPU based server in case the training is involved.
