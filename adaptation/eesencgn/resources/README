@@ -1,0 +1,7 @@
+The following files:
+
+KrantenTT.3gpr.kn.int.arpa.gz
+lexicon.txt
+LM_NL_phone.gz
+
+have been omitted because too large for github, therefore you will need to place them in the resources directory
